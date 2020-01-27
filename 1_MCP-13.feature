@@ -9,7 +9,7 @@
 	@TEST_MCP-56
 
 		Scenario Outline: AH_Sales_CreateEndCustomerOpportunity_US253
-			Given Navigate to Salesforce SIT Loginpage with Sales Manager Profile
+			Given Navigate to Salesforce SIT Loginpage with Accounts Manager Profile
 			When Login to Salesforce SIT Loginpage
 			Then User creates an End Customer Opportunity and verifies statuses
 			
